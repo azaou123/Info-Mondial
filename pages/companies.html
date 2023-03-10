@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cdbootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cdbootstrap/js/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cdbootstrap/js/cdb.min.js"></script>
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="../css/companies.css">
+    <link rel="stylesheet" href="../css/companiesrtl.css">
+    <title>Info Mondial | Companies</title>
+</head>
+<body onload="showCompany(1)">
+
+    <!-- JS File  -->
+    <script src="../js/companies.js"></script>
+    <script src="https://kit.fontawesome.com/9815bf234f.js" crossorigin="anonymous"></script>
+
+    <!-- Start Header  -->
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-2" href="../index.html"><img src="../images/logo.png" alt="Logo" width="135"></a>
+      <button class="navbar-toggler collapsed ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon float-right"></span>
+      </button>
+    </header>
+    <!-- Navigation Part  -->
+    <div class="container-fluid fs-3">
+      <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+          <nav class="position-sticky pt-3">
+            <ul class="nav flex-column">
+              <h3 class="py-4 bg-dark text-light text-center">Companies</h3>
+              <li class="nav-item">
+                <a class="nav-link fs-5 my-1" id="btnCompany1" onclick="showCompany(1)" aria-current="page" href="#">
+                  <i class="fa-brands fa-facebook fs-4 mx-2"></i>  Facebook
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 my-1" id="btnCompany2" onclick="showCompany(2)" aria-current="page" href="#">
+                  <i class="fa-brands fa-apple fs-4 mx-2"></i>  Apple
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 my-1" id="btnCompany3" onclick="showCompany(3)" aria-current="page" href="#">
+                  <i class="fa-brands fa-github fs-4 mx-2"></i>  Git
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 my-1" id="btnCompany4" onclick="showCompany(4)" aria-current="page" href="#">
+                  <i class="fa-solid fa-x fs-6 mx-2"></i>  Xiaomi
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 my-1" id="btnCompany5" onclick="showCompany(5)" aria-current="page" href="#">
+                  <i class="fa-brands fa-linkedin fs-4 mx-2"></i>  LinkedIn
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 my-1" id="btnCompany6" onclick="showCompany(6)" aria-current="page" href="#">
+                  <i class="fa-solid fa-s fs-5 mx-2"></i>  Samsung
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 my-1" id="btnCompany7" onclick="showCompany(7)" aria-current="page" href="#">
+                  <i class="fa-brands fa-youtube fs-4 mx-1"></i>  Youtube
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 my-1" id="btnCompany8" onclick="showCompany(8)" aria-current="page" href="#">
+                  <i class="fa-solid fa-i fs-5 mx-2"></i>  IBM
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Part  -->
+    <!-------------------------------------- Company 1 : Facebook  ------------------------------------->
+    <div class="row" id="contentCompany1" style="display: none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">Facebook</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/facebook1.jpeg" alt="Facebook 1" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/facebook2.jpeg" alt="Facebook 2" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/facebook3.jpeg" alt="Facebook 3" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold">
+            Facebook is a technology company that was founded in 2004 by Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes while they were students at Harvard University. The company's mission is to give people the power to build community and bring the world closer together. Facebook is one of the largest social networking platforms in the world, with billions of active users worldwide.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            In addition to its flagship social networking site, Facebook also owns other popular platforms and technologies such as Instagram, WhatsApp, Oculus VR, and many more. The company has a significant impact on the technology industry, and has been at the forefront of many key developments and trends in the field.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3" src="../images/instagram@256px.png" alt="Insta" width="50">
+          <img class="bg-success mx-3" src="../images/whatsapp.png" alt="Insta" width="50">
+          <img class="mx-3" src="../images/oculusvr.png" alt="Insta" width="50">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3">
+            <p class="fw-bold">
+              Facebook operates primarily through advertising, where it generates revenue by showing advertisements to its users. The company has faced numerous controversies over the years, including issues related to privacy, misinformation, and the spread of harmful content. Despite these challenges, Facebook remains one of the most influential and valuable companies in the world.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/fb-privacy.jpeg" alt="fb privacy" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- Company 2 : Apple  ------------------------------------->
+    <div class="row" id="contentCompany2" style="display:none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">Apple</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/apple1.jpeg" alt="Apple 1" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/apple2.jpeg" alt="Apple 2" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/apple3.jpeg" alt="Apple 3" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold">
+            Apple is an American multinational technology company headquartered in Cupertino, California. It was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, and is now one of the largest and most successful companies in the world. Apple is best known for its innovative hardware products, including the iPhone, iPad, MacBook, and Apple Watch. The company also sells software, including its popular iOS and macOS operating systems, as well as music and video content through the iTunes Store.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            In addition to its hardware and software offerings, Apple is also heavily invested in research and development, and has a long history of innovation. The company has a reputation for producing high-quality, well-designed products that are intuitive and user-friendly. Apple's products and services have had a significant impact on the technology industry and have transformed the way people interact with technology.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3 rounded-3" src="../images/appleproducts.jpeg" alt="Apple Products" width="450" height="150">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3">
+            <p class="fw-bold">
+              Apple operates on a unique business model, where it designs, develops, and sells its own products, rather than relying on third-party manufacturers. This approach has allowed the company to maintain control over the quality and design of its products, and has helped it to build a strong and loyal customer base. Apple is widely regarded as one of the most valuable and successful companies in the world, and continues to play a major role in shaping the future of technology.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/qmt.jpeg" alt="fb privacy" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- Company 3 : Git  ------------------------------------->
+    <div class="row" id="contentCompany3" style="display:none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">Git</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/git1.png" alt="Git 1" class="d-block rounded-3" style="width:100%" height="250">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/git2.png" alt="Git 2" class="d-block rounded-3" style="width:100%" height="250">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/git3.png" alt="Git 3" class="d-block rounded-3" style="width:100%" height="250">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold">
+            Git is a distributed version control system and a source code management (SCM) system. It was developed by Linus Torvalds in 2005 to support the development of the Linux operating system, and it has since become the most widely-used version control system in the world. Git allows multiple developers to work on a project simultaneously, keeps track of different versions of the code, and provides an efficient and convenient way to merge changes from multiple developers. The Git software is open source and freely available, and it has a large and active community of users and developers. The Git platform is also used by companies and organizations of all sizes, from small startups to large enterprises, for software development and collaboration.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            While Git itself is open-source and maintained by a community of developers, there are companies that provide Git hosting services and other related tools, such as GitHub (owned by Microsoft) and GitLab. These companies provide a platform for developers to collaborate on code and manage projects using Git.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3 rounded-3" src="../images/git4.png" alt="Apple Products" width="450" height="150">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3">
+            <p class="fw-bold">
+              In recent years, Git has become an integral part of the software development process, and knowledge of Git is considered a necessary skill for developers. As a result, there are many resources available online to help developers learn and master Git, including documentation, tutorials, and video courses.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/git5.jpeg" alt="GitHub Hosting and ressources" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- Company 4 : Xiaomi  ------------------------------------->
+    <div class="row" id="contentCompany4" style="display:none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">Xiaomi</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/xiaomi1.jpeg" alt="Git 1" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/xiaomi2.jpeg" alt="Git 2" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/xiaomi3.jpeg" alt="Git 3" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold mt-3">
+            Xiaomi is a Chinese electronics company that was founded in 2010 by entrepreneur Lei Jun. The company initially focused on producing affordable smartphones with high-end features, but has since expanded to other product categories such as smart home devices, laptops, and other electronics.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            Xiaomi is known for its strong focus on providing high-quality products at affordable prices. This has led to the company gaining popularity not just in China, but also in other countries, including India, where it has become one of the top smartphone brands.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3 rounded-3" src="../images/xiaomi4.jpeg" alt="Apple Products" width="450" height="150">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3 mt-3">
+            <p class="fw-bold">
+              In recent years, Xiaomi has also become known for its efforts in developing and promoting sustainable products and practices. For example, the company has launched a program called "Mi Eco" which focuses on developing eco-friendly products and reducing its environmental impact.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/xiaomi5.jpeg" alt="GitHub Hosting and ressources" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- Company 5 : LinkedIn  ------------------------------------->
+    <div class="row" id="contentCompany5" style="display:none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">Linked In</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/linkedin1.jpeg" alt="Git 1" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/linkedin2.jpeg" alt="Git 2" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/linkedin3.jpeg" alt="Git 3" class="d-block rounded-3" style="width:100%" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold mt-3">
+            LinkedIn is a professional networking and job search platform that was founded in 2002 and is now owned by Microsoft. It allows users to create a professional profile, connect with other professionals, and search for job opportunities. LinkedIn has become a widely used tool for job seekers, recruiters, and employers to find and network with each other.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            In addition to its core networking features, LinkedIn offers a range of other services, such as job postings, career development courses, and marketing and advertising tools for businesses. It has become an important tool for companies to find and recruit top talent, as well as for individuals to find job opportunities and advance their careers.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3 rounded-3" src="../images/linkedin4.jpeg" alt="Apple Products" width="450" height="150">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3 mt-3">
+            <p class="fw-bold">
+              LinkedIn's success has been built on its ability to leverage the power of professional networking and provide a platform for people to connect, share knowledge, and build their careers. It has become an essential tool for professionals in many industries and continues to grow in popularity around the world.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/linkedin5.jpeg" alt="GitHub Hosting and ressources" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- Company 6 : Samsung  ------------------------------------->
+    <div class="row" id="contentCompany6" style="display:none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">Samsung</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/samsung1.jpeg" alt="Git 1" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/samsung2.jpeg" alt="Git 2" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/samsung3.jpeg" alt="Git 3" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold mt-2">
+            Samsung is a South Korean multinational conglomerate that was founded in 1938 as a trading company. Over the years, the company has expanded into a wide range of businesses, including electronics, smartphones, home appliances, semiconductors, and more.
+            <br>
+            Samsung Electronics, the company's flagship subsidiary, is one of the world's largest producers of smartphones, TVs, and memory chips. The company is known for its high-quality products, advanced technology, and innovative design.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            In recent years, Samsung has been at the forefront of the development of new technologies, such as foldable displays and 5G mobile networks. The company has also made significant investments in artificial intelligence and the internet of things (IoT), as it seeks to remain a leader in the fast-evolving tech industry.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3 rounded-3" src="../images/samsung4.jpeg" alt="Apple Products" width="450" height="150">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3 mt-3">
+            <p class="fw-bold">
+              Beyond its electronics business, Samsung also has interests in many other industries, such as shipbuilding, construction, and financial services. The company is one of the largest employers in South Korea and has a significant presence around the world.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/samsung5.jpeg" alt="GitHub Hosting and ressources" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- Company 7 : Youtube  ------------------------------------->
+    <div class="row" id="contentCompany7" style="display:none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">Youtube</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/youtube1.jpeg" alt="Git 1" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/youtube2.jpeg" alt="Git 2" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/youtube3.jpeg" alt="Git 3" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold mt-2">
+            YouTube is a video-sharing platform that was founded in 2005 by three former PayPal employees. The platform allows users to upload, share, and view videos on a wide range of topics, from music and entertainment to educational and instructional content.
+            <br>
+            Today, YouTube is one of the most popular websites in the world, with billions of monthly active users and a massive library of videos. The platform has become a key part of popular culture, and has given rise to many internet celebrities and viral trends.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            In addition to its core video-sharing features, YouTube offers a range of other services, such as live streaming, premium content, and advertising tools for businesses. The platform has also become an important tool for creators, who can monetize their videos and build a following of loyal subscribers.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3 rounded-3" src="../images/youtube4.jpeg" alt="Apple Products" width="450" height="150">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3 mt-3">
+            <p class="fw-bold">
+              One of the key reasons for YouTube's success is its accessibility - anyone with an internet connection can create and upload videos to the platform, and users can easily search for and discover new content. The platform has also invested heavily in technology, such as its recommendation algorithm and video compression, to provide a smooth and personalized experience for users.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/youtube5.jpeg" alt="GitHub Hosting and ressources" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- Company 8 : IBM  ------------------------------------->
+    <div class="row" id="contentCompany8" style="display:none;">
+      <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-9">
+        <h2 class="text-center my-5">IBM</h2>
+        <div class="row">
+          <div id="demo" class="col-md-6 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../images/ibm1.jpeg" alt="Git 1" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/ibm2.jpeg" alt="Git 2" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+              <div class="carousel-item">
+                  <img src="../images/ibm3.jpeg" alt="Git 3" class="d-block rounded-3" style="width:100%" height="220">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 p-4 fw-bold mt-2">
+            IBM (International Business Machines) is an American multinational technology company that was founded in 1911. The company's business lines include hardware, software, consulting, and cloud services, with a focus on enterprise computing solutions.
+            <br>
+            IBM has been at the forefront of the tech industry for many years, and has made significant contributions to the development of new technologies, such as mainframe computing, artificial intelligence, and blockchain. The company's research arm, IBM Rese the largest and most influential research organizations in the world.
+          </div>
+        </div>
+        <div class="container my-5">
+          <p>
+            In recent years, IBM has focused on expanding its cloud computing business, with the launch of the IBM Cloud platform, which provides a range of services, such as infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS). The company has also made significant investments in artificial intelligence and machine learning, with products such as Watson, a cognitive computing platform.
+          </p>
+        </div>
+        <div class="container text-center">
+          <img class="mx-3 rounded-3" src="../images/ibm4.jpeg" alt="Apple Products" width="450" height="150">
+        </div>
+        <div class="row my-5">
+          <div class="col-md-7 pt-3 mt-3">
+            <p class="fw-bold">
+              Beyond its core business lines, IBM is also involved in many other initiatives, such as open-source software development, sustainability, and social responsibility. The company has made commitments to reduce its carbon footprint and promote diversity and inclusion in its workforce.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="../images/ibm5.jpeg" alt="GitHub Hosting and ressources" width="80%" height="150" class="rounded-3 mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Footer  -->
+    <div class="row">
+      <div class="col-md-2">
+        
+      </div>
+      <div class="col-md-10 mt-5 bg-dark">
+        <footer class="text-center text-lg-start">
+            <div class="justify-content-center py-1">
+                <div class="social text-center">
+                    <a href=""><img src="../images/facebook.png" alt="Facebook" width="30"></a>
+                    <a href=""><img src="../images/likedin.png" alt="LinkedIn" width="30"></a>
+                    <a href=""><img src="../images/twitter.png" alt="Twitter" width="30"></a>
+                    <a href=""><img src="../images/youtube.png" alt="Toutube" width="30"></a>
+                    <a href=""><img src="../images/git.png" alt="Git" width="30" class="bg-light rounded-circle"></a>
+                </div>
+                <div class="text-center text-light p-3">
+                    © 2020 Copyright:
+                </div>
+            </div>
+        </footer>
+      </div>
+    </div>
+    
+</body>
+</html>

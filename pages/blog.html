@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Info Mondial | Blog</title>
+</head>
+<body onload="blogChange(1)">
+    <!-- Js File  -->
+    <script src="../js/blog.js"></script>
+
+    <!-- Start Header  -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Logo" width="135"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-bloder" href="./history.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./domains.html">Domains</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./companies.html">Companies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="./blog.html">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- Start Header  -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto container row text-center">
+            <li class="nav-item col-md-2 hovered activeBlog" id="li1" onclick="blogChange(1)">
+              <a class="text-decoration-none fs-6 fw-bold text-light">Design</a>
+            </li>
+            <li class="nav-item col-md-2 hovered" id="li2" onclick="blogChange(2)">
+              <a class="text-decoration-none fs-6 fw-bold text-light">Security</a>
+            </li>
+            <li class="nav-item col-md-2 hovered" id="li3" onclick="blogChange(3)">
+              <a class="text-decoration-none fs-6 fw-bold text-light">Web Developpement</a>
+            </li>
+            <li class="nav-item col-md-2 hovered" id="li4" onclick="blogChange(4)">
+              <a class="text-decoration-none fs-6 fw-bold text-light">AI</a>
+            </li>
+            <li class="nav-item col-md-2 hovered" id="li5" onclick="blogChange(5)">
+              <a class="text-decoration-none fs-6 fw-bold text-light">Networks</a>
+            </li>
+            <li class="nav-item col-md-2 hovered" id="li6" onclick="blogChange(6)">
+              <a class="text-decoration-none fs-6 fw-bold text-light">Database</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <div class="container my-5" id="contant">
+      <div id="part1" class="">
+        <h3 class="text-center my-3 text-primary">Design</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="btnStart1">
+                Design & roadmap Designer 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Design is a diverse field that involves creating and producing visual and/or functional solutions to various problems. The scope of design is broad, and it includes several disciplines, such as graphic design, product design, fashion design, interior design, UX/UI design, and more. <br>
+                Here's a roadmap to becoming a designer: <br>
+                Understand the different design disciplines: Before starting your journey to become a designer, it's important to understand the different design disciplines and choose the one that interests you the most. <br>
+                Develop your artistic skills: Design is a creative field, and it requires a strong artistic foundation. Start by learning the fundamental principles of design, such as color theory, composition, typography, and sketching. <br>
+                Learn design software: Most design work is done using digital tools, so it's important to learn design software such as Adobe Creative Suite, Sketch, Figma, or other industry-standard software. <br>
+                Build your portfolio: A portfolio showcases your design work and helps you stand out in a competitive job market. Start building your portfolio by working on projects, designing mock-ups, and creating a personal brand. <br>
+                Network and gain experience: Attend design events, connect with designers in your community, and apply for internships to gain hands-on experience in the field. This will help you build your network and gain exposure to different design disciplines. <br>
+                Keep learning: The design industry is constantly evolving, and it's important to stay up-to-date with the latest design trends and technologies. Attend workshops, take courses, and continue to practice your skills to stay relevant in the industry. <br>
+                In summary, becoming a designer involves developing your artistic skills, learning design software, building a portfolio, gaining experience, and staying up-to-date with the latest trends in the industry. It's a challenging but rewarding career path for those who are passionate about creating visual and/or functional solutions to problems
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" id="btnStart2">
+                Tools Used By Designers  
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Designers use a variety of tools and software to create their designs. Here are some of the most commonly used tools: <br>
+                Sketching and Drawing Tools: Pencils, pens, markers, and drawing tablets are commonly used for sketching and creating initial design concepts. <br>
+                Design Software: Popular design software includes Adobe Creative Suite (Photoshop, Illustrator, InDesign, etc.), Sketch, Figma, Canva, and more. <br>
+                3D Modeling and Rendering Software: Designers who create 3D models and renderings use software such as Blender, Maya, Rhino, and SolidWorks. <br>
+                Prototyping Tools: Designers use tools such as InVision, Marvel, or Proto.io to create interactive prototypes of their designs. <br>
+                Digital Asset Management Tools: As designs become more complex, managing files can become a challenge. Digital asset management (DAM) tools like Dropbox, Google Drive, and Adobe Creative Cloud can help designers organize and share their work. <br>
+                Color Tools: Designers use color tools like Adobe Color, Color Hunt, or Pantone to create color palettes that enhance their designs. <br>
+                Typography Tools: Designers use typography tools like Typekit, Google Fonts, or Font Squirrel to find and use fonts that fit their design vision. <br>
+                Project Management Tools: Project management tools like Trello, Asana, or Monday.com can help designers manage their projects and collaborate with team members. <br>
+                These are just some of the tools used by designers. Depending on their specific discipline and needs, designers may use additional tools and resources to create their designs.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" id="btnStart3">
+                Careers in Design Domain
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                The design domain is vast and offers many career paths across multiple industries. Here are some of the most common design careers: <br>
+                Graphic Designer: Graphic designers create visual concepts and graphics for various media, including print and digital. <br>
+                UX/UI Designer: UX/UI designers create user-centered designs for websites, mobile apps, and other digital products. <br>
+                Product Designer: Product designers create physical products, ranging from household goods to electronics to vehicles. <br>
+                Interior Designer: Interior designers create functional and aesthetic designs for interior spaces, including homes, offices, and retail stores. <br>
+                Fashion Designer: Fashion designers create clothing and accessory designs for the fashion industry. <br>
+                Industrial Designer: Industrial designers create designs for mass-produced products, such as automobiles, furniture, and appliances. <br>
+                Web Designer: Web designers create designs for websites and other digital interfaces. <br>
+                Animator: Animators create moving images and visual effects for film, television, and video games. <br>
+                Packaging Designer: Packaging designers create designs for product packaging, ranging from food and beverage packaging to cosmetic packaging. <br>
+                Exhibition Designer: Exhibition designers create designs for exhibitions, museums, and other public spaces. <br>
+                These are just a few of the many design careers available. Each design discipline requires a specific skill set and knowledge base, but all share a focus on creative problem-solving and visual communication.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="part2" class="">
+        <h3 class="text-center my-3 text-primary">Security</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Intro to Cyber Security Domain 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Cybersecurity is the practice of protecting internet-connected systems, including hardware, software, and data, from digital attacks. The domain of cybersecurity is vast and involves a wide range of skills, knowledge, and technologies. Here are some of the main areas of cybersecurity: <br>
+                Network Security: Network security involves protecting networks from unauthorized access and preventing cyber-attacks, such as malware, phishing, and denial of service (DoS) attacks. <br>
+                Application Security: Application security involves securing software applications and systems from cyber-attacks that target vulnerabilities in the code. <br>
+                Information Security: Information security involves protecting sensitive information, such as personal data, financial information, and intellectual property, from unauthorized access or theft. <br>
+                Cloud Security: Cloud security involves securing data and applications stored in cloud computing environments. <br>
+                Identity and Access Management (IAM): IAM involves managing user identities and their access to digital resources. <br>
+                Mobile Security: Mobile security involves protecting mobile devices, including smartphones and tablets, from cyber-attacks. <br>
+                Cybersecurity Governance and Risk Management: Cybersecurity governance involves developing policies and procedures to manage cybersecurity risks, including compliance with regulations and standards. <br>
+                Incident Response: Incident response involves responding to and managing cyber incidents, including identifying and containing the incident and implementing recovery measures. <br>
+                Penetration Testing and Ethical Hacking: Penetration testing involves testing the security of a system by simulating a cyber-attack to identify vulnerabilities and weaknesses in the system. <br>
+                These are just a few of the areas within the domain of cybersecurity. Cybersecurity is a rapidly evolving field, and it requires constant learning and adaptation to stay ahead of the latest threats and technologies. Careers in cybersecurity can range from entry-level analyst positions to high-level executive roles, and require a wide range of skills and knowledge in areas such as networking, programming, risk management, and more.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Roadmap to become a hacker
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                I cannot provide a roadmap to become a hacker, as hacking is illegal and unethical. However, I can provide a roadmap to become a cybersecurity professional, which involves protecting computer systems and networks from cyber threats. <br>
+                Gain foundational knowledge: Start by gaining a strong foundation in computer systems and networks, including operating systems, programming languages, and networking protocols. You can pursue formal education in computer science or information technology, or pursue online courses and certifications. <br>
+                Develop specialized skills: Cybersecurity involves a variety of specialized skills, such as ethical hacking, incident response, and risk management. Focus on developing expertise in a specific area of cybersecurity that interests you. <br>
+                Gain experience: Look for opportunities to gain practical experience, such as internships or entry-level positions in cybersecurity. Participate in cybersecurity competitions and hackathons to test and improve your skills.  <br>
+                Pursue industry certifications: Many cybersecurity certifications, such as CompTIA Security+, Certified Ethical Hacker (CEH), and Certified Information Systems Security Professional (CISSP), are widely recognized by employers and can help demonstrate your skills and knowledge. <br>
+                Stay up-to-date: Cybersecurity is a rapidly evolving field, with new threats and technologies emerging all the time. Stay current with the latest developments in cybersecurity through ongoing education, industry conferences, and participation in online forums. <br>
+                Build a professional network: Networking with other cybersecurity professionals can help you learn about job opportunities, industry trends, and emerging technologies. Join professional organizations, attend industry events, and engage with other professionals on social media. <br>
+                Remember, as a cybersecurity professional, your goal is to protect computer systems and networks from cyber threats, not to exploit them. Always operate within the law and follow ethical standards in your work.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                Hackers Categories 
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                There are several types of hackers, and their motivations, techniques, and actions can vary widely. Here are some of the most common types of hackers: <br>
+                White Hat Hackers: White hat hackers, also known as ethical hackers, are security professionals who use their hacking skills for good. They work to find vulnerabilities in computer systems and networks and report them to the system owner so that the vulnerabilities can be fixed before they are exploited by malicious hackers. <br>
+                Black Hat Hackers: Black hat hackers are individuals who use their hacking skills for malicious purposes, such as stealing data, spreading malware, or disrupting computer systems. They may be motivated by financial gain, political goals, or simply the challenge of breaking into systems. <br>
+                Gray Hat Hackers: Gray hat hackers are individuals who engage in hacking activities that are not entirely legal or ethical, but may not cause significant harm. They may hack into systems without permission, but not for malicious purposes. <br>
+                Script Kiddies: Script kiddies are amateur hackers who use pre-written scripts and tools to launch simple attacks against computer systems. They often lack the skills and knowledge to create their own tools or conduct more sophisticated attacks. <br>
+                Hacktivists: Hacktivists are individuals or groups who use hacking to advance their political or social agendas. They may target government or corporate systems to protest against perceived injustices. <br>
+                State-Sponsored Hackers: State-sponsored hackers are individuals or groups who work on behalf of a government to conduct cyber espionage, sabotage, or other attacks against other countries or organizations. <br>
+                The difference between these types of hackers lies in their motivation and intent. White hat hackers use their skills to help protect computer systems and networks, while black hat hackers use their skills for malicious purposes. Gray hat hackers and script kiddies fall somewhere in between, and their activities may not be entirely legal or ethical. Hacktivists and state-sponsored hackers have specific political or ideological goals that they seek to advance through their hacking activities. <br>
+                It's important to note that hacking without permission is illegal and unethical. As a responsible and ethical individual, it's essential to use your skills for good and avoid engaging in any activity that could harm others.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="part3" class="">
+        <h3 class="text-center my-3 text-primary">Web Developpement</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Intro to the Web Developpement
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Web development is the process of creating websites and web applications using programming languages, frameworks, and tools. It involves designing and building websites that are accessible on the internet, and that can be viewed on various devices, such as desktop computers, laptops, tablets, and mobile phones. <br>
+                Web development can be divided into two main areas: front-end development and back-end development. <br>
+                Front-end development involves creating the visual elements of a website that the user interacts with, such as the layout, colors, fonts, and images. Front-end developers use programming languages such as HTML, CSS, and JavaScript to create web pages that are optimized for user experience and accessibility. <br>
+                Back-end development involves creating the functionality of a website that is hidden from the user, such as server-side scripting, database management, and application programming interfaces (APIs). Back-end developers use programming languages such as PHP, Ruby on Rails, and Node.js to build the back-end of a website. <br>
+                In addition to front-end and back-end development, web development also involves other skills such as web design, user experience design, web security, and search engine optimization (SEO). A well-rounded web developer needs to have a strong understanding of all these areas to create high-quality, secure, and functional websites. <br>
+                Web development is an essential part of modern business, and the demand for skilled web developers is high. With the right training and skills, anyone can become a successful web developer and build a rewarding career in this field.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Web Developement : Front-End 
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Front-end development, also known as client-side development, is the process of creating the visual and interactive parts of a website or web application that users see and interact with. It involves using programming languages such as HTML, CSS, and JavaScript to build the user interface and optimize the user experience. <br>
+                Front-end developers work closely with web designers to translate their designs into working web pages. They are responsible for ensuring that the website or application is visually appealing, user-friendly, and optimized for different devices and screen sizes. <br>
+                Some of the key skills and technologies used in front-end development include: <br>
+                HTML: Hypertext Markup Language (HTML) is the standard markup language used to create web pages. <br>
+                CSS: Cascading Style Sheets (CSS) is used to control the layout, typography, and colors of web pages. <br>
+                JavaScript: A programming language used to create interactive and dynamic user interfaces, and to manipulate the behavior of web pages. <br>
+                Responsive Design: The ability to create web pages that adjust to different screen sizes and devices, providing a consistent user experience. <br>
+                Frameworks: Front-end frameworks such as React, Angular, and Vue.js can simplify the development process and provide pre-built components and features. <br>
+                User Experience (UX) Design: The ability to design user interfaces that are intuitive, easy to use, and provide a positive user experience. <br>
+                Front-end development is a crucial part of web development, and the demand for skilled front-end developers is high. With the right training and skills, anyone can become a successful front-end developer and build a rewarding career in this field.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                We Developement : Back-end
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Back-end development, also known as server-side development, is the process of creating the server-side logic and components that power a website or web application. It involves using programming languages, frameworks, and tools to create the back-end infrastructure that enables the website or application to function. <br>
+                Back-end developers work with the server, database, and application layers of a website or application. They are responsible for building the functionality that users don't see, such as data storage, processing, and retrieval, user authentication and authorization, and server-side scripting. <br>
+                Some of the key skills and technologies used in back-end development include: <br>
+                Programming languages: Back-end developers use programming languages such as PHP, Python, Ruby, Java, and Node.js to create the server-side logic. <br>
+                Databases: Back-end developers use databases such as MySQL, PostgreSQL, and MongoDB to store and retrieve data. <br>
+                Web servers: Back-end developers use web servers such as Apache and Nginx to handle requests from clients and to serve web pages and other resources. <br>
+                APIs: Application programming interfaces (APIs) are used to connect the back-end with front-end components or third-party services. <br>
+                Security: Back-end developers must ensure that the website or application is secure from attacks, including implementing measures such as encryption, authentication, and access control. <br>
+                Back-end development is a crucial part of web development, and the demand for skilled back-end developers is high. With the right training and skills, anyone can become a successful back-end developer and build a rewarding career in this field.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                Web Developement : UI/UX 
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                UI (User Interface) design and UX (User Experience) design are two related but distinct disciplines in the field of web and software design. <br>
+                UI design involves the visual design of the user interface, which includes elements such as buttons, menus, icons, and other graphical components. The goal of UI design is to create an interface that is visually appealing, easy to understand, and consistent across different devices and platforms. <br>
+                UX design, on the other hand, focuses on the overall user experience of a website or application, including how easy it is to navigate, how intuitive it is to use, and how it meets the needs and expectations of the user. UX design involves a combination of research, analysis, and design to create an experience that is engaging and effective. <br>
+                Some of the key skills and techniques used in UI/UX design include: <br>
+                User Research: Understanding user needs and behaviors through interviews, surveys, and other research methods. <br>
+                Information Architecture: Organizing content and information in a clear and intuitive way. <br>
+                Interaction Design: Designing how users interact with a website or application, including designing user flows and wireframes. <br>
+                Visual Design: Creating the visual style of the user interface, including color schemes, typography, and icons. <br>
+                Prototyping and Testing: Creating prototypes of the design and testing them with users to ensure they are effective and user-friendly. <br>
+                UI/UX design is an important part of modern web and software development, and the demand for skilled UI/UX designers is high. With the right training and skills, anyone can become a successful UI/UX designer and build a rewarding career in this field.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                Web Developement : Full-Stack Developper
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                A full stack developer is a web developer who has expertise in both front-end and back-end development. Full stack developers are responsible for creating complete web applications, including both the client-side (front-end) and server-side (back-end) components. <br>
+                In addition to the skills and technologies used in front-end and back-end development, full stack developers need to have a broad range of knowledge and experience, including: <br>
+                Web servers and hosting: Full stack developers need to understand how web servers work and how to deploy and host web applications. <br>
+                Database systems: Full stack developers need to know how to work with various database systems, including SQL and NoSQL databases. <br>
+                API development: Full stack developers need to know how to design, build, and consume APIs to connect different parts of an application. <br>
+                Security: Full stack developers need to have a strong understanding of web application security, including authentication and authorization. <br>
+                DevOps: Full stack developers need to be familiar with the DevOps process, including version control, continuous integration, and automated testing. <br>
+                Project management: Full stack developers often work on complex web applications, so they need to have project management skills to manage and organize their work effectively. <br>
+                Full stack development is a highly sought-after skill in the web development industry, as it allows developers to build complete applications and work on a wide range of projects. With the right training and skills, anyone can become a successful full stack developer and build a rewarding career in this field.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="part4" class="">
+        <h3 class="text-center my-3 text-primary">Artificial Intelligence (AI)</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is AI ?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Artificial Intelligence (AI) refers to the ability of machines or computer programs to perform tasks that normally require human-like intelligence. AI systems use techniques such as machine learning, natural language processing, and computer vision to enable machines to learn, reason, and solve problems like humans. <br>
+                There are various types of AI, including: <br>
+                Reactive machines: These AI systems do not have the ability to form memories or use past experiences to inform future decisions. They can only react to the current situation based on their programming. <br>  
+                Limited memory machines: These AI systems can use past experiences to inform future decisions, but only to a limited extent. <br>
+                Theory of mind machines: These AI systems can understand the mental states of humans and make decisions based on that understanding. <br>
+                Self-aware machines: These AI systems have the ability to be aware of their own existence and consciousness. <br>
+                Some of the key applications of AI include: <br>
+                Natural language processing: AI systems can understand and process human language, enabling applications such as chatbots and voice assistants. <br>
+                Computer vision: AI systems can analyze and interpret images and video, enabling applications such as facial recognition and self-driving cars. <br>
+                Robotics: AI systems can control and guide robots, enabling applications such as factory automation and medical procedures. <br>
+                Predictive analytics: AI systems can analyze vast amounts of data to make predictions and inform decision-making. <br>
+                AI is a rapidly growing field, and there is a high demand for skilled AI professionals in industries such as healthcare, finance, and technology. With the right training and skills, anyone can become a successful AI professional and build a rewarding career in this field.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Roadmap to becoming an AI developper 
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Here is a general roadmap to becoming an AI developer: <br>
+                Learn the basics of programming: Start by learning a programming language such as Python, which is commonly used in AI development. Learn the basics of data structures, algorithms, and object-oriented programming. <br>
+                Study math and statistics: AI development requires a strong foundation in math and statistics, including linear algebra, calculus, probability, and statistics. <br>
+                Learn machine learning: Study machine learning concepts such as regression, classification, clustering, and deep learning. Understand how to use popular machine learning libraries such as scikit-learn and TensorFlow. <br>
+                Study natural language processing: If you are interested in developing AI systems for language processing, study concepts such as semantic analysis, named entity recognition, and sentiment analysis. <br>
+                Learn computer vision: If you are interested in developing AI systems for image and video processing, study concepts such as object detection, image recognition, and facial recognition. <br>
+                Work on projects: Practice building real-world projects to gain experience and demonstrate your skills to potential employers. Consider contributing to open source projects to gain more experience and visibility. <br>
+                Learn data management: Understand how to work with large datasets and databases, and how to clean, preprocess, and transform data for use in AI models. <br>
+                Stay up-to-date with the latest developments: Follow AI research and news, attend conferences and workshops, and join online communities to stay up-to-date with the latest developments in AI. <br>
+                Build a portfolio: Create a portfolio of your projects to showcase your skills to potential employers or clients. <br>
+                Look for job opportunities: Apply for internships, entry-level jobs, or freelance projects to gain professional experience. <br>
+                Becoming a successful AI developer requires dedication, persistence, and a willingness to continue learning and adapting to new technologies and trends. By following this roadmap and staying committed to your goals, you can build a rewarding career as an AI developer.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                Python and AI
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Python is a popular programming language for AI development. It is a versatile language that is easy to learn, has a large community of developers, and has a wide range of libraries and frameworks that are specifically designed for machine learning and other AI tasks. <br>
+                Here are some reasons why Python is popular for AI development: <br>
+                Easy to learn: Python has a simple syntax that is easy to read and write, making it an ideal language for beginners to learn. <br>
+                Large community: Python has a large community of developers who share knowledge and create libraries and frameworks that make AI development easier and more efficient. <br>
+                Rich ecosystem: Python has a wide range of libraries and frameworks for machine learning, including TensorFlow, PyTorch, scikit-learn, and Keras. <br>
+                Flexibility: Python is a flexible language that can be used for a wide range of AI tasks, including data analysis, natural language processing, computer vision, and more. <br>
+                Fast prototyping: Python allows for fast prototyping, which means that developers can quickly test and iterate their ideas before moving on to more complex development. <br>
+                If you are interested in AI development, learning Python is a good place to start. There are many online resources and courses available to help you get started with Python and AI development.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="part5" class="">
+        <h3 class="text-center my-3 text-primary">Networks</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Networks and IT
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Networks and information technology (IT) are closely related fields that deal with the transmission and management of digital data. Network IT professionals design, install, maintain, and troubleshoot computer networks, which are essential for communication and data sharing in today's interconnected world. <br>
+                Here are some key concepts and technologies in networks and IT: <br>
+                Network protocols: A set of rules and procedures that govern the communication between computers on a network. <br>
+                Network topologies: The physical or logical layout of a computer network, including bus, star, mesh, and ring topologies. <br>
+                LANs, WANs, and MANs: Local area networks (LANs) are networks that cover a small geographic area, while wide area networks (WANs) cover a larger area, often spanning multiple cities or countries. Metropolitan area networks (MANs) cover a medium-sized area, such as a city or town. <br>
+                Network devices: These include routers, switches, hubs, and firewalls, which are used to manage network traffic and ensure network security. <br>
+                Network security: This involves protecting the network from unauthorized access, hacking, and other security threats. <br>
+                Cloud computing: This refers to the use of remote servers hosted on the internet to store, manage, and process data, rather than using a local server or a personal computer. <br>
+                Virtualization: This involves creating multiple virtual environments on a single physical server, which can help to increase efficiency and reduce costs. <br>
+                To become a network IT professional, you will need to have a strong understanding of these concepts and technologies. You can start by studying computer science, information technology, or a related field in college or through online courses. Many IT professionals also obtain certifications such as CompTIA Network+ or Cisco Certified Network Associate (CCNA) to demonstrate their skills and knowledge to potential employers. It is also important to stay up-to-date with the latest developments in network IT, as technology and security threats are constantly evolving.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Becoming a network Engineer
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                To become a network engineer, you typically need a combination of education, experience, and certifications. Here is a general roadmap that can help you get started: <br>
+                Earn a degree in computer science or a related field: A bachelor's degree in computer science or a related field is often required for network engineering positions. This degree will provide you with a strong foundation in programming, database management, and systems analysis. <br>
+                Gain practical experience: Many employers require some amount of work experience, typically 1-3 years, for network engineering positions. You can gain experience through internships, entry-level IT positions, or volunteer work. <br>
+                Obtain relevant certifications: Many employers require or prefer candidates who hold industry-standard certifications such as CompTIA Network+, Cisco Certified Network Associate (CCNA), or Juniper Networks Certified Internet Associate (JNCIA). These certifications demonstrate your knowledge and proficiency in network engineering. <br>
+                Develop your technical skills: Network engineers should have a strong understanding of network protocols, hardware, and software, as well as security and data protection. You can develop your technical skills through continuing education, online courses, or by working with a mentor. <br>
+                Build your professional network: Joining professional organizations or attending industry conferences can help you stay up-to-date with the latest trends and technology in network engineering, and can also help you build relationships with other professionals in the field. <br>
+                Apply for network engineering positions: Once you have the necessary education, experience, and certifications, you can start applying for network engineering positions. Be sure to tailor your resume and cover letter to the specific job and company, highlighting your relevant experience and skills. <br>
+                Becoming a network engineer requires dedication and hard work, but with the right education, experience, and certifications, it can be a rewarding and fulfilling career.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                Servers vs Computers
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                In the world of computers, servers and workstations (sometimes referred to as "ordinators") are two different types of machines with different roles and capabilities. <br>
+                A server is a powerful computer system designed to provide data, applications, and other resources to other computers on a network. Servers can be used for a variety of purposes, including hosting websites, email services, databases, file storage, and more. Servers are typically optimized for reliability, scalability, and high performance, and often include redundant components such as power supplies, hard drives, and network interfaces to minimize downtime. <br>
+                On the other hand, a workstation (also called an "ordinator") is a high-end desktop computer designed for professional use, such as graphic design, video editing, software development, or scientific research. Workstations are usually optimized for high-performance computing and typically feature advanced hardware components such as multi-core processors, high-end graphics cards, and large amounts of memory. <br>
+                While both servers and workstations can be powerful and high-performance machines, they are optimized for different tasks. Servers are designed to handle large amounts of data and requests from multiple users simultaneously, while workstations are designed for intensive computing tasks performed by a single user. <br>
+                In general, servers are used in business and enterprise environments where high availability, security, and reliability are critical, while workstations are used by professionals who need high-performance computing for specialized tasks. However, the distinction between servers and workstations is not always clear-cut, as some high-end workstations can also function as servers, and some servers can also perform workstation-like tasks.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="part6" class="">
+        <h3 class="text-center my-3 text-primary">Database</h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Database & Data 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                A database is a structured collection of data that is stored and organized in a way that allows easy access, retrieval, and manipulation of the data. Databases are used to manage and store large amounts of information, such as customer records, financial data, product information, and more. They can be used for a wide range of applications, including websites, inventory management systems, e-commerce platforms, and more.
+                <br>
+                Data, on the other hand, refers to any collection of information, facts, or statistics that can be analyzed, processed, or used to make decisions. Data can come from various sources, such as databases, spreadsheets, sensors, and more. Data can be structured, such as information in a database or unstructured, such as text or image files.
+                <br>
+                In the context of databases, data is the information that is stored in a database. Databases typically organize data into tables, which consist of rows and columns, and use a structured query language (SQL) to retrieve and manipulate the data.
+                <br>
+                Effective management of data is crucial in many industries, as it enables businesses to make informed decisions, track trends, and improve operations. Databases provide a way to store and manage large amounts of data in an efficient and organized way, making it easier to access and analyze.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Database Administration
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                Becoming a database administrator typically requires a combination of education, technical skills, and experience. Here are the general steps to becoming a database administrator:
+                <br>
+                Earn a degree: A bachelor's degree in computer science, information systems, or a related field is usually required for entry-level database administrator positions. Some employers may also require a master's degree in a related field.
+                <br>
+                Gain technical skills: Database administrators need to have a strong understanding of database management systems, data modeling, and SQL. It's important to gain experience with a variety of database technologies, such as Oracle, SQL Server, MySQL, and NoSQL databases. Knowledge of programming languages such as Java, Python or C++ can also be beneficial.
+                <br>
+                Get certified: Obtaining certifications in database management systems is an excellent way to demonstrate your expertise and knowledge. The most common certifications for database administrators are Oracle Certified Professional (OCP), Microsoft Certified Database Administrator (MCDBA), and IBM Certified Database Administrator.
+                <br>
+                Gain experience: Most employers require several years of experience working with databases, so look for opportunities to gain practical experience by working on database-related projects or through internships.
+                <br>
+                Develop soft skills: In addition to technical skills, database administrators need to have strong communication and problem-solving skills. They should be able to work well under pressure and be able to work in a team environment.
+                <br>
+                Stay up-to-date: Technology is constantly changing, so it's important to stay up-to-date with the latest developments and trends in database management. Attend conferences, read industry publications, and participate in online forums to stay current with the latest advances.
+                <br>
+                Becoming a successful database administrator takes time and effort, but with the right education, technical skills, and experience, it is a rewarding and challenging career path.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                Difference between SQL and MySQL
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="text-indent: 20px;">
+                SQL (Structured Query Language) is a standard programming language used to manage relational databases. It is used to create, modify, and query databases, and is supported by many database management systems, including MySQL.
+                <br>
+                MySQL, on the other hand, is an open-source relational database management system that uses SQL as its programming language. MySQL is one of the most popular database management systems in the world, and is used by many web applications, including WordPress, Joomla, and Drupal.
+                <br>
+                So, the main difference between SQL and MySQL is that SQL is a programming language used to manage relational databases, while MySQL is a database management system that uses SQL as its programming language.
+                <br>
+                It's worth noting that while MySQL is based on the SQL language, it has some unique features that distinguish it from other SQL-based database management systems. These features include support for multiple storage engines, built-in replication and clustering, and a range of security features. Additionally, MySQL has its own extensions to the SQL language, such as the ability to handle transactions in stored procedures, which are not part of the standard SQL language.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- A little bit of styling  -->
+    <style>
+      .hovered{
+        cursor: pointer;
+      }
+      .avtiveBlog{
+        color: rgb(153, 132, 11);
+      }
+    </style>    
+
+
+
+    
+</body>
+</html>
